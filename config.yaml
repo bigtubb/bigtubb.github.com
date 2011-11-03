@@ -1,0 +1,22 @@
+# This is the YAML config file to make this a little more abstractish
+
+# Stuff about you.
+user_config:
+   # Your Name. This will be used for the page title
+   name: 'Bronson Tubb'
+
+   # The file you want to parse to be your resume
+   # Must be a format supported by github-markup
+   file: 'resume.md'
+
+   # A picture of you. Should be a complete url
+   pic: 'http://farm7.static.flickr.com/6212/6310491270_8e19645f8c.jpg'
+
+   # The google analytics key you wish to use.
+   gkey: ''
+
+# For github pages to work, this needs to be the GitHub repository this file is
+# storred in.
+github:
+   remote: 'git@github.com:bigtubb/Resume.git'
+
